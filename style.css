@@ -1,0 +1,43 @@
+@import url(//db.onlinewebfonts.com/c/dffb2b80813d195d26fa4d2aad48b059?family=Gotham+Rounded);
+
+* {
+    font-family: Gotham Rounded, sans-serif;
+    font-weight: normal;
+}
+
+html,
+body {
+    background-color: #868383;
+    display: grid;
+    place-items: center;
+    height: 100%;
+}
+
+.wrapper {
+    height: 100px;
+    width: 360px;
+    background-color: #464646;
+    border-radius: 10px;
+}
+
+.wrapper .display {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 999;
+    height: 85px;
+    width: 345px;
+    background: linear-gradient(#808080, #5f5e5e, #808080);
+    /* background-color: #5f5e5e; */
+    border-radius: 5px;
+    text-align: center;
+}
+
+#time {
+    line-height: 85px;
+    color: rgb(228, 217, 217);
+    font-size: 50px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
